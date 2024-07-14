@@ -1,1 +1,1 @@
-apt-get -qq -y install tmux
+sudo apt-get -qq -y install tmux

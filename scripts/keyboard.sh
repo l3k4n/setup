@@ -7,5 +7,6 @@
 # usermod -aG plugdev $USER
 
 # install qmk
-sudo apt install -y git python3-pip
+sudo apt-get -qq -y install git python3-pip
+python3 -m pip install --user qmk
 qmk setup -y zsa/qmk_firmware -b firmware23
