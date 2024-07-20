@@ -1,5 +1,5 @@
 # install i3
-sudo apt-get -qq -y install i3
+sudo apt-get -qq -y install i3 playerctl
 
 # install i3blocks
 git clone https://github.com/vivien/i3blocks
